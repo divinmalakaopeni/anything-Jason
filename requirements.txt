@@ -1,0 +1,12 @@
+# pdf2json — Python dependencies
+# Install with: pip install -r requirements.txt
+
+PyMuPDF>=1.23.0          # fitz: text, image, drawing extraction
+pdfplumber>=0.11.0       # lattice + stream table extraction
+camelot-py[cv]>=0.11.0   # Ghostscript-backed graphical table extraction
+opencv-python-headless   # required by camelot
+Pillow>=10.0             # image processing / format conversion
+tqdm>=4.65               # progress bars
+rich>=13.0               # rich console logging
+orjson>=3.9              # fast JSON serialisation (optional but recommended)
+ghostscript              # Python wrapper; also needs system ghostscript installed
