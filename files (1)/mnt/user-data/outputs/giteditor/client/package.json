@@ -1,0 +1,26 @@
+{
+  "name": "giteditor-client",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev":   "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react":            "^18.2.0",
+    "react-dom":        "^18.2.0",
+    "react-router-dom": "^6.16.0",
+    "socket.io-client": "^4.6.1",
+    "zustand":          "^4.4.1",
+    "axios":            "^1.5.0",
+    "@codemirror/view": "^6.0.0",
+    "react-hot-toast":  "^2.4.1",
+    "date-fns":         "^2.30.0",
+    "react-dropzone":   "^14.2.3"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.0.4",
+    "vite":                 "^4.4.9"
+  }
+}
